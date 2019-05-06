@@ -1,11 +1,11 @@
-# BNY Assignment
+# MS Assignment
 
 ## LIVE DEMO 
 `http://ms-assignment.surge.sh/`
 
 ## Clone the repository
 
-`git clone  https://github.com/umangchadha/MS.git;`
+`git clone  https://github.com/umangchadha/ms.git;`
 
 
 
