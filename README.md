@@ -1,4 +1,16 @@
-# MS
+# BNY Assignment
+
+## LIVE DEMO 
+`http://ms-assignment.surge.sh/`
+
+## Clone the repository
+
+`git clone  https://github.com/umangchadha/MS.git;`
+
+
+
+## Load dependencies
+`npm i`    
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
@@ -6,22 +18,35 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Fake Api server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To create a fake api request response server, 
 
-## Running end-to-end tests
+`Create a repository`
+`https://github.com/umangchadha/fakeServer/`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+`Create a file named "db.json"`
+`https://github.com/umangchadha/fakeServer/blob/master/db.json`
 
-## Further help
+` Structure of file`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+if the structure of the json object is like this :
+{
+  "data": [{
+    "name": "12314123ASDA",
+    "id": "124131231231"
+  }]
+}
+
+the file can be accessed using the url like this:
+ `https://my-json-server.typicode.com/< your username >/< repository >/data`
+
+
+
+## Troubleshooting
+
+Incase the project is throwing error or not working write me an email at umangchadha@gmail.com

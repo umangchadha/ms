@@ -1,0 +1,57 @@
+.tableContainer {
+  background: #0F8EC7;
+  padding: 20px;
+}
+
+.hiddenElement {
+  visibility: hidden;
+}
+
+.alignRight {
+  * {
+    text-align: right !important;
+  }
+
+  .positive {
+    color: green;
+  }
+
+  .negative {
+    color: red;
+  }
+}
+
+
+//increase the padding of mat cell
+td.mat-cell:last-of-type,
+td.mat-footer-cell:last-of-type,
+th.mat-header-cell:last-of-type,
+td.mat-cell:first-of-type,
+td.mat-footer-cell:first-of-type,
+th.mat-header-cell:first-of-type {
+  padding: 24px
+}
+
+.accountNumber {
+  color: #0F8EC7; //can be replaced with the variable later
+  font-weight: bold
+}
+
+.currValue {
+  font-size: 1.5em //can be replaced with the variable later
+}
+
+.loadMore {
+  padding: 20px;
+  background: white;
+  cursor: pointer;
+  color: #0F8EC7; //can be replaced with the variable later
+}
+
+.tableHeading {
+  font-weight: bold
+}
+
+.subHeading {
+  font-size: 90%
+}
